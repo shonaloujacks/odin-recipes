@@ -1,19 +1,31 @@
 body
 {
     background-color: #FBF4F2;
-    text-align: center;
     font-family: 'Courier New', Courier, monospace, sans-serif;
     font-size: 20px;
-    font-weight: bold
+    font-weight: bold;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1, h4 {
     background-color: black;
+    text-align:center
+}
+
+h2 {
+    text-align: center;
 }
 
 h1 {
     font-size: 45px;
-    color:teal
+    color:rgb(159, 229, 209);
+    text-align: center; 
 }
 
 h4 {
@@ -22,12 +34,31 @@ h4 {
 }
 
 ul {
-    text-align: left;
+    padding: 14px;
+    display: block;
 }
 
-.bullet {
-    list-style-position: inside;
+.box { 
+    width: 550px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 5px dotted black;
+
 }
 
+.ingredients {
+display: block;
+border: dotted black;
+padding: 20px;
+margin: 20px;
 
+}
 
+.steps {
+    display: block;
+    border: dotted black;
+    padding: 20px;
+    margin: 20px;
+    
+    }
